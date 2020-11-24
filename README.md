@@ -40,4 +40,4 @@ You can replace `{env.VULTR_API_TOKEN}` with the actual auth token if you prefer
 
 ## Authenticating
 
-See [the associated README in the libdns package](https://github.com/Xinayder/libdns-vultr) for important information about credentials.
+See [the associated README in the libdns package](https://github.com/libdns/vultr) for important information about credentials.

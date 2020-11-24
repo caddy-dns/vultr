@@ -1,9 +1,9 @@
 package vultr
 
 import (
-	vultr "github.com/Xinayder/libdns-vultr"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
+	"github.com/libdns/vultr"
 )
 
 // Provider wraps the provider implementation as a Caddy module.
