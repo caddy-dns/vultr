@@ -19,8 +19,8 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
   "challenges": {
     "dns": {
       "provider": {
-	"name": "vultr",
-	"api_token": "YOUR_VULTR_API_TOKEN"
+        "name": "vultr",
+        "api_token": "YOUR_VULTR_API_TOKEN"
       }
     }
   }
