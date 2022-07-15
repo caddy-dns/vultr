@@ -41,3 +41,16 @@ You can replace `{env.VULTR_API_TOKEN}` with the actual auth token if you prefer
 ## Authenticating
 
 See [the associated README in the libdns package](https://github.com/libdns/vultr) for important information about credentials.
+
+## Troubleshooting `timed out waiting for record to fully propagate`
+
+If the appropriate `_acme-challenge` TXT record has been created in the Vultr dashboard but the propagation check keeps timing out, using Vultr's nameservers with Caddy might help.
+
+Add a custom `resolver` to the [`tls` directive](https://caddyserver.com/docs/caddyfile/directives/tls):
+
+```
+tls {
+  dns vultr {env.VULTR_API_TOKEN}
+  resolvers ns1.vultr.com
+}
+```
