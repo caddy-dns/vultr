@@ -5,7 +5,7 @@ go 1.15
 require (
 	github.com/caddyserver/caddy/v2 v2.4.6
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/libdns/vultr v0.0.0-20211122184636-cd4cb5c12e51
+	github.com/libdns/vultr v0.0.0-20220906182619-5ea9da3d9625
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
