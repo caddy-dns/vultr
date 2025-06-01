@@ -3,7 +3,7 @@ package vultr
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/libdns/vultr"
+	"github.com/libdns/vultr/v2"
 )
 
 // Provider wraps the provider implementation as a Caddy module.
@@ -31,10 +31,9 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
 //
-// vultr [<api_token>] {
-//     api_token <api_token>
-// }
-//
+//	vultr [<api_token>] {
+//	    api_token <api_token>
+//	}
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {
