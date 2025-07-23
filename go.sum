@@ -91,6 +91,8 @@ github.com/libdns/vultr/v2 v2.0.2 h1:3hTsVctr4IUzT6R7ASyYYShJKLAneVdfxMPTNZ038ow
 github.com/libdns/vultr/v2 v2.0.2/go.mod h1:u5Vgx6UG44bMLFKzqHdixc+o2TfP8aGUUmEZk4asH9o=
 github.com/libdns/vultr/v2 v2.0.3 h1:Xu5/7oMxHRsPB6yygL40jeS+6sDVd6NIaia6LzTTfcY=
 github.com/libdns/vultr/v2 v2.0.3/go.mod h1:u5Vgx6UG44bMLFKzqHdixc+o2TfP8aGUUmEZk4asH9o=
+github.com/libdns/vultr/v2 v2.0.4 h1:4V1OSiUnYvFfpFBicdM27JEnAF0D694cmmQ3AyNqobA=
+github.com/libdns/vultr/v2 v2.0.4/go.mod h1:u5Vgx6UG44bMLFKzqHdixc+o2TfP8aGUUmEZk4asH9o=
 github.com/lunixbochs/vtclean v1.0.0/go.mod h1:pHhQNgMf3btfWnGBVipUOjRYhoOsdGqdm/+2c2E2WMI=
 github.com/mailru/easyjson v0.0.0-20190312143242-1de009706dbe/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=

@@ -6,7 +6,7 @@ toolchain go1.24.3
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/vultr/v2 v2.0.3
+	github.com/libdns/vultr/v2 v2.0.4
 )
 
 require (
