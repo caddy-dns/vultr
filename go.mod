@@ -6,7 +6,7 @@ toolchain go1.24.3
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/vultr/v2 v2.0.2
+	github.com/libdns/vultr/v2 v2.0.3
 )
 
 require (
@@ -20,7 +20,7 @@ require (
 	github.com/google/pprof v0.0.0-20250501235452-c0086092b71a // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.8 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/libdns/libdns v1.1.0 // indirect
 	github.com/mholt/acmez/v3 v3.1.2 // indirect
@@ -33,7 +33,7 @@ require (
 	github.com/prometheus/procfs v0.16.1 // indirect
 	github.com/quic-go/qpack v0.5.1 // indirect
 	github.com/quic-go/quic-go v0.52.0 // indirect
-	github.com/vultr/govultr/v3 v3.20.0 // indirect
+	github.com/vultr/govultr/v3 v3.21.1 // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/mock v0.5.2 // indirect
